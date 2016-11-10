@@ -1,0 +1,222 @@
+
+---
+title: "From four to forty; the rise of the TfL-R User Group"
+author: "Kerry Cella and Robert Duff; Transport for London"
+date: "31 October 2016"
+css: style2.css
+output: 
+      ioslides_presentation
+---
+
+## Contents
+ 
+
+- The beginning
+
+- Momentum 
+
+- Lea**R**n together
+
+- Successes to date
+
+- Challenges
+
+- Future
+
+
+<div class="footer"></div>
+
+
+## Question
+
+<font size = "18">
+**Apart from time, what are the biggest challenges facing a technical user group?**
+
+</font>
+
+
+<div class="footer"></div>
+
+## The beginning
+
+
+<br>
+
+<center><img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/CafeMeet.png" width="450px" height="275px" /></center>
+
+
+<div class="footer"></div>
+
+## Gaining momentum
+
+<br>
+
+
+<center><img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/crowd.jpg" width="500px" height="300px" /></center>
+
+
+<div class="footer"></div>
+
+## Professionalising the RUG
+
+<div class = "columns-2">
+
+<font size = "5" color = "DarkBlue">
+
+- Meeting rooms
+
+- Agenda
+    - Live coding demo x 2
+    - Package of the month
+    - Topical Discussion (Shiny server)
+  
+- Average attendance of 15 with one in 10 Tfl analysts on the distribution list
+
+- Not just R! Data Science techniques
+
+</font>
+
+<br>
+<img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/pres.jpg" width="400px" height="350px" />
+
+</div>
+
+<div class="footer"></div>
+
+## Taster Sessions / training 
+
+<center><img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/Taster.png" width="700px" height="500px" /></center>
+
+<div class="footer"></div>
+
+## LeaRn Together
+
+<div class = "columns-2">
+
+<font size = "4" color = "DarkBlue">
+
+- Lunchtime dial in sessions with screen sharing
+
+- Feedback positive
+
+- No need to Leave you desk!
+
+<br>
+**Two strands**
+
+- ISLR
+    - Regression
+    - Classification
+    - Supervised / Unsupervised Learning
+- Tutorials
+
+</font>
+ 
+<centre><img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/islr.jpg" width="150px" height="200px" /></centre>
+
+<h4> Tutorial examples: time series </h4>
+
+```{r, echo = F, warning= F, fig.width=4, fig.height=2}
+library(dygraphs)
+mps_sex<-read.csv("T:\\Projects and Contracts Management\\2008 Workplan\\IAT Project Guardian\\RITSI Evaluation\\MPS_Sex_offences_April11toSept16.csv", header = T)
+mps_ts<- ts(mps_sex[,2], start= c(2011, 4), frequency = 12)
+
+dygraph(mps_ts, main = "MPS recorded sex offences by month", ylab = "Offences")
+
+```
+
+</div>
+
+<div class="footer"></div>
+
+## TfL Intranet site
+
+
+<center><img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/RIntranet.png" width="700px" height="500px" /></center>
+
+
+<div class="footer"></div>
+
+## Awards
+
+<div class = "columns-2">
+
+<img src="T:/Projects and Contracts Management/2008 Workplan/IAT Presentations/R DFT WG pres/Award.jpg" width="400px" height="500px" />
+
+<br>
+<br>
+<h3> 2 x awards at the TfL analyst conference </h3>
+
+</div>
+
+<div class="footer"></div>
+
+## Benefits of the User Group
+
+- Markedly increased collaboration across TfL modes
+
+- Improved data science skills of analyst community
+
+- Increased confidence in presenting
+
+- Increased network, more efficient at solving problems
+
+<div class="footer"></div>
+
+
+## What seems to work
+
+<font size = "5" color = "DarkBlue">
+
+- Intentional
+    - Passionate advocates
+    - Coordinators
+    - Having R and R Studio on the estate
+    - Structured sessions and program
+    - Mailbox comms and updates (with distribution list)
+    
+<br>
+
+- Less intentional but important!
+    - Good senior management support
+    - Lync conversations and presenting
+
+</font>
+
+<div class="footer"></div>
+
+## Challenges
+
+- IM, a long time to get R and R Studio on the network
+
+- Retaining consistent numbers for the RUG and ISLR sessions
+
+- RUG responsible for user testing new version of R for roll out
+
+- Day jobs!
+
+- Volunteers...
+
+<div class="footer"></div>
+
+
+## Future plans
+
+- Youtube demos
+
+- A broader data science focus
+
+- Introduce more external/guest speakers
+
+- Advertise more widely with more taster sessions.
+
+<div class="footer"></div>
+
+
+## Questions
+
+...
+
+
+
+<div class="footer"></div>
